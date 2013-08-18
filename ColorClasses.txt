@@ -1,0 +1,14 @@
+Default		#000000
+Keyword 1	#A020F0
+Keyword 2	#A020F0
+Variable	#A000F0
+Comment1	#B22200
+Comment2	#B22200	bold
+Literal1	#0000FF
+Literal2	#A020F0
+Label		#A020F0
+Function	#A02000
+Markup		#A02000
+Operator	#A02000
+Number		#A02000
+Invalid		#B20022

@@ -1,0 +1,25 @@
+{
+  parserClass="ru.usb7.idea.plugin.perl.parser.PerlParser"
+  stubParserClass="ru.usb7.idea.plugin.perl.parser.GeneratedParserUtilBase"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="Perl"
+  psiImplClassSuffix="Impl"
+  psiPackage="ru.usb7.idea.plugin.perl.psi"
+  psiImplPackage="ru.usb7.idea.plugin.perl.psi.impl"
+
+  elementTypeHolderClass="ru.usb7.idea.plugin.perl.psi.PerlTypes"
+  elementTypeClass="ru.usb7.idea.plugin.perl.psi.PerlElementType"
+  tokenTypeClass="ru.usb7.idea.plugin.perl.psi.PerlTokenType"
+}
+
+perlFile ::= item_*
+
+private item_ ::= (expression|COMMENT_1|COMMENT_2|CRLF)
+
+COMMENT_2 ::= COMMENT_2_START COMMENT_2_CONTENT* COMMENT_2_END
+
+LITERAL_1 ::= LITERAL_1_START LITERAL_1_CONTENT* LITERAL_1_END
+
+expression ::= FUNCTION LITERAL_1? SEMICOLON? COMMENT_1? CRLF
