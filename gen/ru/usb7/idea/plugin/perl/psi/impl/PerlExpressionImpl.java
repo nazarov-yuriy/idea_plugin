@@ -19,8 +19,8 @@ public class PerlExpressionImpl extends ASTWrapperPsiElement implements PerlExpr
 
   @Override
   @Nullable
-  public PerlLITERAL1 getLITERAL1() {
-    return findChildByClass(PerlLITERAL1.class);
+  public PerlVariable getVariable() {
+    return findChildByClass(PerlVariable.class);
   }
 
   public void accept(@NotNull PsiElementVisitor visitor) {

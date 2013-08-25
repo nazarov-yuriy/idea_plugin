@@ -14,12 +14,48 @@
   tokenTypeClass="ru.usb7.idea.plugin.perl.psi.PerlTokenType"
 }
 
-perlFile ::= item_*
+/*
+ * package_declaration
+ * include
+ * special_code_block
+ * variable_declaration
+ * eval
+ * code_block
+ * code
+ * comment
+ * perlpod
+ * sub
+ */
 
-private item_ ::= (expression|COMMENT_1|COMMENT_2|CRLF)
+perlFile ::= perl_item*
 
-COMMENT_2 ::= COMMENT_2_START COMMENT_2_CONTENT* COMMENT_2_END
+private perl_item ::= (package_declaration|include|special_code_block|code|COMMENT|perlpod|CRLF)
 
-LITERAL_1 ::= LITERAL_1_START LITERAL_1_CONTENT* LITERAL_1_END
+package_declaration ::= PACKAGE_KEYWORD MODULE_NAME SEMICOLON
 
-expression ::= FUNCTION LITERAL_1? SEMICOLON? COMMENT_1? CRLF
+include ::= USE_REQURE_KEYWORD MODULE_NAME SEMICOLON
+
+special_code_block ::= SPECIAL_BLOCK_KEYWORD code_block SEMICOLON?
+
+variable_declaration ::= VARIABLE_DECLARATION_KEYWORD variable SEMICOLON? CRLF*
+
+eval ::= EVAL_KEYWORD (code_block | literal) SEMICOLON? CRLF*
+
+code_block ::= CURLYBRACKET_OPEN CRLF* code* CURLYBRACKET_CLOSE CRLF*
+
+code ::= (expression|eval|variable_declaration|eval|code|code_block)
+
+perlpod ::= PERLPOD_START PERLPOD_CONTENT* PERLPOD_END
+
+variable ::= scalar|array|hash
+
+scalar ::= SCALAR_SIGIL ID | literal
+
+array ::= ARRAY_SIGIL ID | (PARENTHESE_OPEN variable PARENTHESE_CLOSE)
+
+hash ::= HASH_SIGIL ID
+
+literal ::= LITERAL_START LITERAL_CONTENT* LITERAL_END
+
+expression ::= ID variable? SEMICOLON? COMMENT? CRLF
+

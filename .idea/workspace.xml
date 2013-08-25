@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39d9d263-2578-443e-9fda-11b9afd902cc" name="Default" comment="" />
+    <list default="true" id="39d9d263-2578-443e-9fda-11b9afd902cc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mad.pm" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/parser/PerlParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlCOMMENT2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlExpression.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlLITERAL1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlVisitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/impl/PerlCOMMENT2Impl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/impl/PerlExpressionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/impl/PerlLITERAL1Impl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hello.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlLexer.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.bnf" afterPath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.bnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.flex" afterPath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.flex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlParserDefinition.java" afterPath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlParserDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java" afterPath="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="plugin_00.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/PerlHighlighter.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376766291926" ignored="false" />
@@ -12,15 +30,15 @@
     <file path="/plugin.xml" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376781290859" ignored="false" />
     <file path="/PerlTokenType.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376776218467" ignored="false" />
     <file path="/PerlElementType.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376782341811" ignored="false" />
-    <file path="/Perl.bnf" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376845385277" ignored="false" />
-    <file path="/Perl.flex" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376855894277" ignored="false" />
+    <file path="/Perl.bnf" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1377461125782" ignored="false" />
+    <file path="/Perl.flex" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1377463285176" ignored="false" />
     <file path="/PerlFile.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376777456514" ignored="false" />
     <file path="/PerlParserDefinition.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376832826310" ignored="false" />
     <file path="/fragment.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376777904752" ignored="false" />
     <file path="/1.pl" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376779369305" ignored="false" />
     <file path="/idea-flex.skeleton" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376779579850" ignored="false" />
-    <file path="/a.dummy" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376813239473" ignored="false" />
-    <file path="/PerlSyntaxHighlighter.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376855334112" ignored="false" />
+    <file path="/a.dummy" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1377461484970" ignored="false" />
+    <file path="/PerlSyntaxHighlighter.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1377463909080" ignored="false" />
     <file path="/PerlSyntaxHighlighterFactory.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376780044756" ignored="false" />
     <file path="/PerlModuleFileType.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376782777517" ignored="false" />
     <file path="/123.pl" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376856109161" ignored="false" />
@@ -28,8 +46,9 @@
     <file path="/PerlLexer.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376813467338" ignored="false" />
     <file path="/Perl.bnf.preview" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376832652421" ignored="false" />
     <file path="/PerlColorSettingsPage.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376832721911" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/parser/PerlParser.java" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376845945385" ignored="false" />
-    <file path="/Dummy.txt" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1376856620836" ignored="false" />
+    <file path="/Dummy.txt" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1377463954339" ignored="false" />
+    <file path="/hello.pl" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1377464503781" ignored="false" />
+    <file path="/Mad.pm" changelist="39d9d263-2578-443e-9fda-11b9afd902cc" time="1377464646960" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +56,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="USE_COMPILE_SERVER" value="false" />
   </component>
@@ -47,7 +71,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -84,6 +107,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -96,7 +120,7 @@
       <file leaf-file-name="Perl.flex" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.flex">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="111" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0">
+            <state line="76" column="21" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,52 +129,16 @@
       <file leaf-file-name="Perl.bnf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.bnf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+            <state line="17" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerlLexer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlLexer.java">
+      <file leaf-file-name="Mad.pm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mad.pm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="478" column="16" selection-start="13598" selection-end="13598" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PerlTypes.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlTypes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="17" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PerlParserDefinition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlParserDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.pl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello.pl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.16465423">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PerlSyntaxHighlighter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="4205" selection-end="4205" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.094444446">
               <folding />
             </state>
           </provider>
@@ -174,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlIcons.java" />
-        <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlLanguage.java" />
         <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlLexerAdapter.java" />
         <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighterFactory.java" />
         <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlFileType.java" />
@@ -184,20 +170,22 @@
         <option value="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlTypes.java" />
         <option value="/Perl.bnf.preview" />
         <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlColorSettingsPage.java" />
-        <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlParserDefinition.java" />
         <option value="$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlVisitor.java" />
+        <option value="$PROJECT_DIR$/123.pl" />
+        <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlParserDefinition.java" />
         <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.flex" />
         <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.bnf" />
         <option value="$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java" />
-        <option value="$PROJECT_DIR$/123.pl" />
+        <option value="$PROJECT_DIR$/hello.pl" />
+        <option value="$PROJECT_DIR$/Mad.pm" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
-    <option name="width" value="1922" />
-    <option name="height" value="1085" />
+    <option name="x" value="312" />
+    <option name="y" value="62" />
+    <option name="width" value="699" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -207,15 +195,29 @@
             <id />
           </State>
           <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
             <id>Performance issues</id>
           </State>
           <State>
             <id>Probable bugs</id>
           </State>
           <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
             <id>Security issues</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -264,6 +266,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin_00" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idea_plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin_00" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idea_plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin_00" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idea_plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -273,16 +337,16 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -335,6 +399,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -360,19 +437,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -449,8 +513,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
-    <editor active="true" />
+    <frame x="312" y="62" width="699" height="917" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -464,12 +528,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16435432" sideWeight="0.67342585" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2764977" sideWeight="0.67342585" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26840982" sideWeight="0.67342585" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27534685" sideWeight="0.67199147" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32800853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32657418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -540,27 +604,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="4205" selection-end="4205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="155" selection-start="4833" selection-end="4833" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/colors/TextAttributesKey.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="71" selection-start="2861" selection-end="2861" vertical-scroll-proportion="0.0" />
@@ -581,61 +624,84 @@
         <state line="32" column="39" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlColorSettingsPage.java">
+    <entry file="file://$PROJECT_DIR$/ColorClasses.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="47" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" />
+        <state line="1" column="19" selection-start="28" selection-end="34" vertical-scroll-proportion="0.016465422" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlParserDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.0">
+        <state line="29" column="76" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/psi/PerlTokenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="-4.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/psi/PerlFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/psi/PerlElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="-4.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/parser/GeneratedParserUtilBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="13" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlLexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="478" column="16" selection-start="13598" selection-end="13598" vertical-scroll-proportion="0.0">
+        <state line="620" column="11" selection-start="18181" selection-end="18182" vertical-scroll-proportion="0.63414633">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/ru/usb7/idea/plugin/perl/psi/PerlTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlColorSettingsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+        <state line="22" column="47" selection-start="875" selection-end="875" vertical-scroll-proportion="0.016429354">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.flex">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="111" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.0">
+        <state line="76" column="21" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="52" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/Perl.bnf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+        <state line="17" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ColorClasses.txt">
+    <entry file="file://$PROJECT_DIR$/Mad.pm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="28" selection-end="34" vertical-scroll-proportion="0.016465422" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/usb7/idea/plugin/perl/PerlSyntaxHighlighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="4205" selection-end="4205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.16465423">
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.094444446">
           <folding />
         </state>
       </provider>

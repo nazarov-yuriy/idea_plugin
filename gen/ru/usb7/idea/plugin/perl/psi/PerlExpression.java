@@ -8,6 +8,6 @@ import com.intellij.psi.PsiElement;
 public interface PerlExpression extends PsiElement {
 
   @Nullable
-  PerlLITERAL1 getLITERAL1();
+  PerlVariable getVariable();
 
 }
